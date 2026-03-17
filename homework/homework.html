@@ -4,23 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homework</title>
+    <link rel="stylesheet" href="/homework/homewokr.css">
 </head>
 <body>
-    <form action="">
+    <form>
         <div class="inputForm">
-            <input type="text" id="InputName" placeholder="Введите ФИО">
-            <input type="text" id="InputAge" placeholder="Введите возраст">
-            <input type="text" id="InputCity" placeholder="Введите ваш город">
-            <input type="text" id="InputHobby" placeholder="Введите ваше хобби">
-            <input type="submit" value="Отправить">
+            <input type="text" id="InputName" placeholder="Введите ФИО" class="input">
+            <input type="text" id="InputAge" placeholder="Введите возраст" class="input">
+            <input type="text" id="InputCity" placeholder="Введите ваш город" class="input">
+            <input type="text" id="InputHobby" placeholder="Введите ваше хобби" class="input">
+            <input type="submit" value="Отправить" class="submitBtn">
         </div>
     </form>
     <div class="outForm">
-        <p id="OutName"></p>
-        <p id="OutAge"></p>
-        <p id="OutCity"></p>
-        <p id="OutHobby"></p>
-        <button id="clear">Очистить</button>
+        <p id="OutName" class="output">Текст</p>
+        <p id="OutAge" class="output">Текст</p>
+        <p id="OutCity" class="output">Текст</p>
+        <p id="OutHobby" class="output">Текст</p>
+        <button id="clear" class="clearBtn">Очистить</button>
     </div>
+    <script src="/homework/homework.js"></script>
 </body>
 </html>
